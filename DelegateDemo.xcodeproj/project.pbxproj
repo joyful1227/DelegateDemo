@@ -13,6 +13,7 @@
 		A8EA41BC22F4957B0075114F /* DelegateDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8EA41BA22F4957B0075114F /* DelegateDemo.xcdatamodeld */; };
 		A8EA41BE22F4957D0075114F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EA41BD22F4957D0075114F /* Assets.xcassets */; };
 		A8EA41C122F4957D0075114F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EA41BF22F4957D0075114F /* LaunchScreen.storyboard */; };
+		A8EA41C922F497030075114F /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EA41C822F497030075114F /* BViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A8EA41BD22F4957D0075114F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8EA41C022F4957D0075114F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8EA41C222F4957D0075114F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8EA41C822F497030075114F /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				A8EA41B322F4957B0075114F /* AppDelegate.swift */,
-				A8EA41B522F4957B0075114F /* ViewController.swift */,
 				A8EA41B722F4957B0075114F /* Main.storyboard */,
+				A8EA41B522F4957B0075114F /* ViewController.swift */,
+				A8EA41C822F497030075114F /* BViewController.swift */,
 				A8EA41BD22F4957D0075114F /* Assets.xcassets */,
 				A8EA41BF22F4957D0075114F /* LaunchScreen.storyboard */,
 				A8EA41C222F4957D0075114F /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8EA41B622F4957B0075114F /* ViewController.swift in Sources */,
+				A8EA41C922F497030075114F /* BViewController.swift in Sources */,
 				A8EA41B422F4957B0075114F /* AppDelegate.swift in Sources */,
 				A8EA41BC22F4957B0075114F /* DelegateDemo.xcdatamodeld in Sources */,
 			);
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PY8GD98FSY;
 				INFOPLIST_FILE = DelegateDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PY8GD98FSY;
 				INFOPLIST_FILE = DelegateDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
